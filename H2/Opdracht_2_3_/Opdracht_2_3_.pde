@@ -1,0 +1,11 @@
+size(500,500);
+background(43,96,193);
+fill(249,201,225);
+textSize(15);
+text("Charlotte",200,150);
+fill (148,0,211);
+textSize(15);
+text("Rozemeijer",200,200);
+textSize(15);
+fill (0,255,0);
+text("Mijn hobby's zijn golfen en sport kijken",200,250); 

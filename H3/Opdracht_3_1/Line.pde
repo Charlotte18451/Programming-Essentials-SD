@@ -1,0 +1,10 @@
+size (500,500);
+stroke (100,200,300);
+strokeWeight (5);
+line (4,1,497,497);
+stroke (300,300,300);
+strokeWeight (8);
+line (220,1,232,494);
+stroke (225,100,220);
+strokeWeight (3);
+line (2,219,498,221);
