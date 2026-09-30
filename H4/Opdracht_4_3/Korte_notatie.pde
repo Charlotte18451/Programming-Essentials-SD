@@ -1,0 +1,11 @@
+int score= 10;
+score= score + 10;
+println(score);
+score += 10;
+println(score);
+score -= 10;
+println(score);
+score *= 10;
+println(score);
+score /= 10;
+println(score);

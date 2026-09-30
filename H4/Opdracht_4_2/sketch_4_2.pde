@@ -1,0 +1,10 @@
+size (500,500);
+background(255);
+int voetbal= (15%2);
+int F1= (31%3);
+int love= (10%5);
+int Constantine= (38%4);
+println(voetbal);
+println(F1);
+println(love);
+println(Constantine);
