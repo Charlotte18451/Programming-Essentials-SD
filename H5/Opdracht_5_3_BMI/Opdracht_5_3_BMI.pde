@@ -1,20 +1,17 @@
 size (500,500);
-String a= "Met een gewicht van";
-String b= " ";
+
 int gewicht= 56;
-String c= "kg";
-String d= " ";
-String e= "en een lengte van";
-String f= " ";
 int lengte= 173;
-String g= "cm";
-String h= " ";
-String i= "is jouw BMI";
-String j= " ";
-float BMI= 18.7;
-int x= 50;
-int y= 200;
+
+float lengteMeter = lengte / 100.0;
+float BMI = gewicht / (lengteMeter * lengteMeter);
+
+int x = 50;
+int y = 200;
 
 fill(0);
-textSize (15);
-text(a + b + gewicht + c + d + e + f + lengte + g + h + i+  j + BMI, x, y);
+textSize(12);
+
+text("Met een gewicht van " + gewicht +
+     " kg en een lengte van " + lengte +
+     " cm is jouw BMI " + BMI, x, y);
